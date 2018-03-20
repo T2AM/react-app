@@ -1,9 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-export default class Header extends Component {
-  render() {
-    return (
-      <div class="header">Header nav</div>
-    )
-  }
-}
+const Header = () => (
+  <div className="header">
+    <button className="nav-btn">Here</button>
+    <button className="nav-btn">be the</button>
+    <button className="nav-btn">Header nav</button>
+  </div>
+)
+
+export default Header

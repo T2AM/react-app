@@ -1,13 +1,13 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { Switch, Route } from 'react-router-dom';
-import FrontPage from 'front_page';
-import Profile from 'profile';
+import FrontPage from './front_page';
+import Profile from './profile';
 
-const Main = () => {
-  return (
-    <Switch>
-      <Route path="/frontpage" component="FrontPage" />
-      <Route path="/profile/:id" component="Profile" />
-    </Switch>
-  )
-}
+const Main = () => (
+  <Switch>
+    <Route path="/frontpage" component={ FrontPage } />
+    <Route path="/profile/:id" component={ Profile } />
+  </Switch>
+)
+
+export default Main
