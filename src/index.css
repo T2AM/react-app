@@ -1,3 +1,6 @@
+@import './css/foundation.min.css';
+@import './css/projects.css';
+
 body {
   margin: 0;
   padding: 0;
