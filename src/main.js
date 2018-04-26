@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
 import FrontPage from './front_page';
 import Profile from './profile';
+import Projects from './src/components/projects';
 
 export default class Main extends Component {
   constructor() {
