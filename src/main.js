@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
 import FrontPage from './front_page';
 import Profile from './profile';
-import Projects from './src/components/projects';
+import Projects from './components/projects';
 
 export default class Main extends Component {
   constructor() {
@@ -34,7 +34,7 @@ export default class Main extends Component {
       <Switch>
         <Route path="/frontpage" component={ FrontPage } />
         <Route
-          path={ `/profile/${maintainerId}` }
+          path={ `/profile/${this.state.maintainer.maintainerId}` }
           component={ Profile }
         />
         <Route
