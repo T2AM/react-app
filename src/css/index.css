@@ -6,6 +6,7 @@
   --space: .25rem;
   /* colors */
   --quarter-trans-grey: #0004;
+  --tenth-trans-grey: #00000020;
 }
 
 body {
@@ -14,14 +15,26 @@ body {
   font-family: sans-serif;
 }
 
+.item-margin-bottom {
+  margin-bottom: calc(2*var(--space));
+}
+
 .border-radius {
   border-radius: .25rem;
+}
+
+.round {
+  border-radius: 50%;
 }
 
 .thin-grey-border {
   border: 1px solid var(--quarter-trans-grey);
 }
 
-.item-margin-bottom {
-  margin-bottom: calc(2*var(--space));
+.pad {
+  padding: calc(var(--space)*3) calc(var(--space)*3) calc(var(--space)*3.5);
+}
+
+.grey-bg {
+  background-color: var(--tenth-trans-grey);
 }
