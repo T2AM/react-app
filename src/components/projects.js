@@ -3,10 +3,10 @@ import React from 'react';
 const Projects = props => {
   return (
     <main className='main-container projects-page'>
-      <h1 className='headline'>What's blocking you?</h1>
-      <div className='projects-container'>
-        <div className='grid-x'>
-          <div className='cell'>
+      <div className='grid-container projects-container'>
+        <h1 className='headline'>What's blocking you?</h1>
+        <div className='grid-x grid-margin-x'>
+          <div className='cell medium-4 text-center border-radius thin-grey-border item-margin-bottom'>
             <a>
               <img
                 className='project-logo'
@@ -14,7 +14,7 @@ const Projects = props => {
                 alt='Babel logo' />
             </a>
           </div>
-          <div className='cell'>
+          <div className='cell medium-4 text-center border-radius thin-grey-border item-margin-bottom'>
             <a>
               <img
                 className='project-logo'
@@ -22,7 +22,7 @@ const Projects = props => {
                 alt='Gulp logo' />
             </a>
           </div>
-          <div className='cell'>
+          <div className='cell medium-4 text-center border-radius thin-grey-border item-margin-bottom'>
             <a>
               <img
                 className='project-logo'
@@ -31,8 +31,8 @@ const Projects = props => {
             </a>
           </div>
         </div>
-        <div className='grid-x'>
-          <div className='cell'>
+        <div className='grid-x grid-margin-x'>
+          <div className='cell medium-4 text-center border-radius thin-grey-border item-margin-bottom'>
             <a>
               <img
                 className='project-logo'
@@ -40,7 +40,7 @@ const Projects = props => {
                 alt='expressjs logo' />
             </a>
           </div>
-          <div className='cell'>
+          <div className='cell medium-4 text-center border-radius thin-grey-border item-margin-bottom'>
             <a>
               <img
                 className='project-logo'
@@ -48,7 +48,7 @@ const Projects = props => {
                 alt='Sass Syntatically Aweseome Style Sheets logo' />
             </a>
           </div>
-          <div className='cell'>
+          <div className='cell medium-4 text-center border-radius thin-grey-border item-margin-bottom'>
             <a>
               <img
                 className='project-logo'
