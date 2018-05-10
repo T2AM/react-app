@@ -43,15 +43,13 @@ const Projects = props => {
   const renderProjectCard = project => {
     return (
       <div className='cell medium-4 text-center item-margin-bottom border-radius thin-grey-border pad'>
-        <div className='project-logo-container'>
-          <div className='pad round grey-bg'>
-            <a href={ `/project?project=${project.name}` }>
-              <img
-                className='project-logo'
-                src={ project.imgSrc }
-                alt={ project.imgAlt } />
-            </a>
-          </div>
+        <div className='pad round grey-bg project-logo-container flex-container flex-dir-column align-center'>
+          <a href={ `/project?project=${project.name}` }>
+            <img
+              className='project-logo'
+              src={ project.imgSrc }
+              alt={ project.imgAlt } />
+          </a>
         </div>
         <div>
           <p>{ project.name }</p>
