@@ -16,7 +16,7 @@ body {
 }
 
 .item-margin-bottom {
-  margin-bottom: calc(2*var(--space));
+  margin-bottom: calc(8*var(--space));
 }
 
 .border-radius {
