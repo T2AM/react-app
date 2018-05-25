@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Projects = props => {
+const Projects = ({ match }) => {
   const projectData = [
     {
       name: 'Laravel',
@@ -52,7 +52,7 @@ const Projects = props => {
           </a>
         </div>
         <div>
-          <p>{ project.name }</p>
+          <h4>{ project.name }</h4>
           <p>{ project.slug }</p>
         </div>
       </div>

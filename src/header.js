@@ -1,11 +1,16 @@
 import React from 'react';
 
 const Header = () => (
-  <div className="header">
-    <button className="nav-btn">Here</button>
-    <button className="nav-btn">be the</button>
-    <button className="nav-btn">Header nav</button>
-  </div>
+  <header className="top-bar">
+    <div class="top-bar-left">
+      <ul class="dropdown menu" data-dropdown-menu>
+        <li class="menu-text">talk2AM</li>
+        <li><a href="#">Account</a></li>
+        <li><a href="#">Calendar</a></li>
+        <li><a href="#">Projects</a></li>
+      </ul>
+    </div>
+  </header>
 )
 
 export default Header
