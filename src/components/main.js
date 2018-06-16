@@ -4,11 +4,6 @@ import FrontPage from './front_page';
 import Profile from './profile';
 import Projects from './projects';
 
-/*
-            src=
-            alt='Laravel logo' />
-*/
-
 export default class Main extends Component {
   constructor() {
     super()

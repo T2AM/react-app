@@ -6,14 +6,15 @@ const Projects = ({ match }) => {
   const renderProjectCard = project => {
     return (
       <div key={project.id} className='cell medium-4 text-center item-margin-bottom border-radius thin-grey-border pad'>
-        <div className='pad round grey-bg project-logo-container flex-container flex-dir-column align-center'>
-          <Link to={ `/project?projectID=${project.id}` }>
-            <img
-              className='project-logo'
-              src={ project.imgSrc }
-              alt={ project.imgAlt } />
-          </Link>
-        </div>
+        <Link
+          to={ `/project?projectID=${project.id}` }
+          className='pad round grey-bg project-logo-container flex-container flex-dir-column align-center align-middle'
+        >
+          <img
+            className='project-logo'
+            src={ project.imgSrc }
+            alt={ project.imgAlt } />
+        </Link>
         <div>
           <h4>{ project.name }</h4>
           <p>{ project.slug }</p>
