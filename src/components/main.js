@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
 import FrontPage from './front_page';
 import Profile from './profile';
-import Projects from './components/projects';
+import Projects from './projects';
 
 /*
             src=
