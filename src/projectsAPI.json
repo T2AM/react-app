@@ -1,0 +1,44 @@
+[
+  {
+    "id": 0,
+    "name": "Laravel",
+    "slug": "Yeah, The Internet still uses PHP",
+    "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/8/85/Laravel.png",
+    "imgAlt": "Laravel logo too short"
+  },
+  {
+    "id": 1,
+    "name": "Babel",
+    "slug": "You know you need it",
+    "imgSrc": "https://raw.githubusercontent.com/babel/logo/master/babel.png",
+    "imgAlt": "Babel logo"
+  },
+  {
+    "id": 2,
+    "name": "Gulp",
+    "slug": "Everyone's doing it",
+    "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Gulp-white-text.svg",
+    "imgAlt": "Gulp logo light"
+  },
+  {
+    "id": 3,
+    "name": "Nodejs",
+    "slug": "It's everything",
+    "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg",
+    "imgAlt": "Node logo"
+  },
+  {
+    "id": 4,
+    "name": "Expressjs",
+    "slug": "Express yourself",
+    "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png",
+    "imgAlt": "Express logo"
+  },
+  {
+    "id": 5,
+    "name": "Sass",
+    "slug": "Something about syntatic and compilation",
+    "imgSrc": "https://upload.wikimedia.org/wikipedia/commons/9/96/Sass_Logo_Color.svg",
+    "imgAlt": "Syntatically Awesome Stylesheets logo"
+  }
+]
